@@ -1,0 +1,160 @@
+
+
+<style>
+    body {
+        background-color: #000;
+        font: 12px Arial, sans-serif;
+        overflow:hidden;
+    }
+    .title {
+        margin: 0px auto;
+        color: white;
+    }
+
+    #linkLists {
+        margin: 15px 38px;
+        position: relative;
+        z-index: 0;
+    }
+
+    #linkLists:after {
+        content: ".";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+    }
+
+    #linkLists .linkList {
+        display: table-cell;
+        vertical-align: top;
+        width: 20%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        box-sizing: border-box;
+        border-left: 1px solid #333;
+        padding: 0 15px;
+    }
+
+    #linkLists .linkList:first-of-type {
+        border-left: 0 !important;
+        padding-left: 0;
+    }
+
+    #linkLists .linkList .title {
+        font: 18px "HelveticaNeue-Condensed", "Arial Narrow", sans-serif;
+        font-stretch: condensed;
+        margin: 0;
+        padding: 0;
+    }
+
+    #linkLists .linkList .event {
+        margin: 8px 0 15px 0;
+    }
+
+    #linkLists .linkList .event:last-of-type {
+        margin-bottom: 0;
+    }
+
+    #linkLists .linkList .event time,
+    #linkLists .linkList .event strong,
+    #linkLists .linkList .event span {
+        display: block;
+    }
+
+    #linkLists .linkList .event time {
+        color: #999;
+    }
+
+    #linkLists .linkList .event strong {
+        margin: 4px 0;
+    }
+
+    #linkLists .linkList .box-ul {
+        list-style: none;
+        margin: 8px 0 0 0;
+        padding: 0;
+    }
+
+    #linkLists .linkList .box-li {
+        margin: 0;
+        padding: 0 0 8px 15px;
+        position: relative;
+    }
+
+    #linkLists .linkList .box-li:before {
+        content: "\00bb";
+        position: absolute;
+        left: 0;
+        top: -1px;
+        color: #ff9c00;
+    }
+
+    #linkLists .linkList .box-a {
+        color: #eaeaea;
+        text-decoration: none;
+    }
+
+    #linkLists .linkList .box-a:hover {
+        color: #ff9c00;
+    }
+
+</style>
+<section id="linkLists">
+    <div class="linkList">
+        <h3 class="title">Highlights</h3>
+        <ul class="box-ul">
+            <li class="box-li"><a class="box-a" href="http://www.sap.com/">When Biology Meets Physics</a></li>
+            <li class="box-li"><a class="box-a" href="http://www.sap.com/">Academic year kicks off with Exiciting New Programs</a></li>
+            <li class="box-li"><a class="box-a" href="http://www.sap.com/">Visitors Kit</a></li>
+            <li class="box-li"><a class="box-a" href="http://www.sap.com/">UoD International</a></li>
+            <li class="box-li"><a class="box-a" href="http://www.sap.com/">Community Centres</a></li>
+            <li class="box-li"><a class="box-a" href="http://www.sap.com/">TED talks: Intresex Brains</a></li>
+        </ul>
+    </div>
+    <div class="linkList">
+        <h3 class="title">Newsroom</h3>
+        <ul class="box-ul">
+            <li class="box-li"><a class="box-a" href="http://www.sap.com/">UoD and CNN co-host live US Election panel</a></li>
+            <li class="box-li"><a class="box-a" href="http://www.sap.com/">2012-13 Academic year Kicks off with Exiciting New Programs</a></li>
+            <li class="box-li"><a class="box-a" href="http://www.sap.com/">UoD students empower youth through computer science</a></li>
+            <li class="box-li"><a class="box-a" href="http://www.sap.com/">Two bionic ears are beter than the sum of their parts</a></li>
+            <li class="box-li"><a class="box-a" href="http://www.sap.com/">UoD and the God Practicle</a></li>
+        </ul>
+    </div>
+    <div class="linkList">
+        <h3 class="title">Events</h3>
+        <div class="event"><a class="box-a" href="http://www.sap.com/">
+            <time>October 22 @ 7:oo PM</time>
+            <strong>Class Representatives Elections 2013-2014</strong>
+            <span>Class representatives are your best connection to UoD - your contact to the Faculty and the Student Union</span>
+        </a></div>
+        <div class="event"><a class="box-a" href="http://www.sap.com/">
+            <time>October 22 @ 8:oo PM</time>
+            <strong>Second Workshop and Lecture Series in Political Psychology and Decision Making</strong>
+        </a></div>
+    </div>
+    <div class="linkList">
+        <h3 class="title">Student Information</h3>
+        <ul class="box-ul">
+            <li class="box-li"><a class="box-a" href="http://www.sap.com/">Dean of Students</a></li>
+            <li class="box-li"><a class="box-a" href="http://www.sap.com/">Students Union</a></li>
+            <li class="box-li"><a class="box-a" href="http://www.sap.com/">Computer Services</a></li>
+            <li class="box-li"><a class="box-a" href="http://www.sap.com/">Academic Calendar</a></li>
+            <li class="box-li"><a class="box-a" href="http://www.sap.com/">Libraries</a></li>
+        </ul>
+    </div>
+    <div class="linkList">
+        <h3 class="title">Alerts</h3>
+        <ul class="box-ul">
+            <li class="box-li"><a class="box-a" href="http://www.sap.com/">Grant Proposal approved</a></li>
+            <li class="box-li"><a class="box-a" href="http://www.sap.com/">Effort Certification due 11/30/2013</a></li>
+            <li class="box-li"><a class="box-a" href="http://www.sap.com/">Protocol HS12132 re-newel due 12/15/2103</a></li>
+            <li class="box-li"><a class="box-a" href="http://www.sap.com/">Grant RP18191-02/03 ending 12/31/2013</a></li>
+            <li class="box-li"><a class="box-a" href="http://www.sap.com/">Grant RP18191-03/03 starting 1/31/2014</a></li>
+        </ul>
+    </div>
+</section>
